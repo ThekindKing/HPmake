@@ -304,3 +304,31 @@ width: 60%;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
 }
+/* レスポンシブ対応 */
+/* スマホ */
+@media (max-width: 670px) {
+  header h4{
+    padding-left:20px;
+  }
+ .apo{
+   display: none;
+ }
+ .insta_btn{
+   padding:0px 10px;
+ }
+ .mail-btn{
+   padding: 0px;
+ }
+ .profile{
+   display: none;
+ }
+ .Contents{
+   margin-right:10px;
+   margin-left:10px;
+   width: 100%;
+ }
+ .Contents-top a{
+   margin-right: 0px;
+ }
+}
+
