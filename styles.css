@@ -99,7 +99,7 @@ header h4{
 .top{
   width: 100%;
   height: 200px;
-  background-image: url("top 2.png");
+  background-image: url("img/top 2.png");
   background-size:cover;
   padding-bottom: 50px;
 }
@@ -304,6 +304,9 @@ width: 60%;
   padding-bottom: 5px;
   border-bottom: 1px solid #fff;
 }
+.resuponsibu{
+  display: none;
+}
 /* レスポンシブ対応 */
 /* スマホ */
 @media (max-width: 670px) {
@@ -330,5 +333,90 @@ width: 60%;
  .Contents-top a{
    margin-right: 0px;
  }
-}
+ .top2 h1{
+   text-align:center;
+ }
+ .top2 h1 span{
+   display: block;
+ }
+ .smail{
+   display: none;
+ }
+ .resuponsibu{
+   display:block;
+ }
+ /* .fa-grin-squint{
+   text-indent:100%;
+	 white-space:nowrap;
+	 overflow:hidden;
+ } */
+ .Contents{
+   width: 100%;
+ }
+ .resuponsibu{
+   /* width: 100%; */
+   height: 670px;
+   border: 2px solid #000000;
+   border-radius:10px;
+   /* margin: -70px 0px 0px 70px; */
+   text-align: center;
+   background-color: #fff;
+ }
+ .resuponsibu img{
+   margin-top: 35px;
+   width: 40%;
+   border-radius:50%;
+ }
+ .resuponsibu p{
+   margin: 5px 0px;
+   color: #BBBBBB;
+   font-size: 14px;
+ }
+ .resuponsibu a{
+   text-decoration: none;
+ }
+ .resuponsibu1{
+   margin: 10px 0px;
+   width: 80%;
+   margin: 0 auto;
+ }
+ .resuponsibu1 ul{
+   list-style: none;
+   display: flex;
+   /* flex-direction：row; */
+   justify-content:space-between;
+   padding-left: 0px;
+ }
+ .resuponsibu1 li{
+   border-radius:20px;
+   padding: 5px 30px;
+   border: 1px solid #C0C0C0;
+   cursor: pointer;
+   font-size: 14px;
+  font-weight: 600;
+ }
+ .blue {
+   background-color: #0057ff;
+   color: #fff;
+ }
+ .blue a{
+   color: #fff;
+ }
+ .white a{
+   color: #000000;
+ }
+ .PR {
+   text-align:left;
+   margin:0 auto;
+   width: 80%;
+ }
+ .PR p{
+   color:#000000;
 
+ }
+ .display{
+   display: flex;
+   flex-direction：row;
+ }
+
+}
