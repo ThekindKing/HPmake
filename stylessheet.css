@@ -420,7 +420,14 @@ td{
  .Comparison a{
    margin-right: 0px;
  }
+ .Comparison h2{
+   margin-bottom: 20px;
+ }
+ .Comparison p{
+   line-height:40px;
+ }
  .table2{
    padding: 40px 10px;
  }
 }
+
